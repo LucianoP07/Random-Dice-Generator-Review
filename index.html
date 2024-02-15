@@ -1,0 +1,48 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dice Sim</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div id="content">
+      <h1>Dice Simulator</h1>
+      <hr />
+      <h3>Choose a simulation option</h3>
+      <p>
+        <select id="HowManyRolls">
+          <option value="Roll-Dice-Once">Roll Dice Once</option>
+          <option value="Roll-Dice-Five-Times">Roll Dice Five Times</option>
+          <option value="Roll-Dice-X-Times">Roll Dice X Times</option>
+          <option value="Roll-Dice-Until-Snake-Eyes">
+            Roll Dice Until Snake Eyes
+          </option>
+          <!-- <option value="Three-Dice">Three Dice</option> -->
+        </select>
+      </p>
+      <p>
+        <button id="Rollbtn">Roll</button> <button id="Resetbtn">Reset</button>
+      </p>
+      <p>
+        <input
+          id="InputUser"
+          type="text"
+          value=""
+          placeholder="Type Any Number "
+        />
+      </p>
+      <h4>Times Rolled: <a id="totalrolls"></a></h4>
+      <h4>The Sum: <a id="sum"></a></h4>
+      <div id="Screen">
+        <img id="DiceIMG1" />
+        <img id="DiceIMG2" />
+        <a id="DiceImg3"></a>
+      </div>
+      <div id="WhereDiceRolls">
+        <h3>Dice Rolls</h3>
+      </div>
+    </div>
+  </body>
+</html>

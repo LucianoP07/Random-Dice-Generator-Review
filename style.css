@@ -1,0 +1,102 @@
+html {
+  background-image: linear-gradient(to right, rgb(212, 5, 212), rgb(49, 0, 49));
+}
+#content {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgba(97, 95, 209, 0.7);
+  text-align: center;
+  width: 500px;
+  border-radius: 20px;
+  margin: auto;
+  padding: 30px 75px;
+  height: 850px;
+  cursor: default;
+}
+
+#Screen {
+  background-image: linear-gradient(to right, rgb(34, 0, 34), rgb(114, 2, 114));
+  border: 2px solid purple;
+  width: 400px;
+  padding-left: 25px;
+  margin: 50px;
+}
+
+#WhereDiceRolls {
+  text-align: center;
+  border: 2px solid purple;
+  width: 400px;
+  padding-left: 25px;
+  margin: 50px;
+}
+
+select {
+  background-color: darkmagenta;
+  color: white;
+  padding: 10px 10px;
+  font-size: 18px;
+  text-align: center;
+  border: 2px solid purple;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  border-radius: 10px;
+}
+
+select:hover {
+  background-color: white;
+  color: darkmagenta;
+  border: 2px solid purple;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+button {
+  padding: 13px 26px;
+  margin: 10px;
+  border: 2px solid purple;
+  background: purple;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background: white;
+  color: purple;
+}
+img {
+  width: 150px;
+  margin: 10px;
+}
+
+span {
+  color: white;
+  border: 1px solid white;
+  padding: 3px;
+  margin: 3px;
+  display: inline-block;
+}
+
+input {
+  padding: 3px 6px;
+  margin: 10px;
+  border: 2px solid purple;
+  background: purple;
+  cursor: text;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+  text-align: center;
+}
+input:hover {
+  background: white;
+  color: purple;
+}
+
+::placeholder {
+  color: rgb(204, 207, 207);
+}
